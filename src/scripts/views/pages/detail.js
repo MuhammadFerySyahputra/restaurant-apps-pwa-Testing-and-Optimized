@@ -10,7 +10,13 @@ const Detail = {
     return `
     <div tabindex="0" class="main">
       <h2 tabindex="0" class="explore-restaurant__label">Detail Restaurant</h2>
-      <section id="detail-rest"></section>
+      <section id="detail-rest">
+      <div class="lds-facebook" id="loadingIndicator">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
       <div class="like" id="likeButtonContainer"></div>
     </div>
 

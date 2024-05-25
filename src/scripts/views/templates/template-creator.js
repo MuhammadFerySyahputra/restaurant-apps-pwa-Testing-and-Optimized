@@ -21,7 +21,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
 <div class="detail">
   <div tabindex="0" class="container-info">
     <div class="img-container">
-      <img class="resto-item_image-container lazyload"  data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="Gambar ${restaurant.name}" tabindex="0"/>
+      <img class="resto-item_image-container lazyload" data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="Gambar ${restaurant.name}" tabindex="0"/>
     </div>
     <ul class="detail-info">
       <li class="resto-name">

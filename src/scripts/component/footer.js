@@ -8,10 +8,10 @@ class footernih extends HTMLElement {
       background-color: black;
       color: white;
       font-size: 1rem;
-      width: 100%;
+      padding: 1rem;
+      margin-top: 1rem;
       max-width: 100%;
       text-align: center;
-      position: fixed;
       bottom: 0;
     }
     </style>

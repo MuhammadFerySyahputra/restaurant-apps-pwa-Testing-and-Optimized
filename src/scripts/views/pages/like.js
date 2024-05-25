@@ -10,12 +10,7 @@ const Favorite = {
               Favorite
             </h2>
             <h2 class="restaurant-item__not__found"></h2>
-            <div id="main-resto_list" class="list-resto"></div>
-            <div class="lds-facebook" id="loadingIndicator">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
+            <div id="main-resto_list" class="list-resto">
         </section>
       </main>
     `;
@@ -27,7 +22,7 @@ const Favorite = {
     const empty = document.querySelector('.restaurant-item__not__found');
     if (restaurants.length === 0) {
       empty.innerHTML = `
-      <h3>Tidak ada favorite restaurant yang ditampilkan</h3>
+      <h3 >Tidak ada favorite restaurant yang ditampilkan</h3>
       `;
     }
 
