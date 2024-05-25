@@ -1,0 +1,120 @@
+@media screen and (min-width: 650px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
+
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+  }
+
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+  .skip2content {
+    display: none;
+  }
+  
+
+  .hero-container {
+    background-image: url("../public/images/sharp/hero-image_4-large.jpg");
+  }
+
+  .hero-container .hero-content-container {
+    text-align: left;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+
+  .main-resto_label {
+    font-size: 26px;
+  }
+
+  .list-resto {
+    grid-template-columns: 1fr 1fr;
+  }
+  .detail-review {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .resto-item_name {
+    font-size: 22px;
+  }
+  .main-resto_container {
+    padding: 0 30px;
+  }
+  .restaurant-detail__menu-list {
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+  .app-bar {
+    padding: 0 100px;
+  }
+  .list-resto {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .detail-review {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .container-info {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 1.5em;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .restaurant-detail__info,
+  .restaurant-detail__menu-list,
+  .restaurant-detail__review {
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    gap: 50px;
+    margin: 0 auto;
+  }
+  .detail-review {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .resto-item_image-container {
+    max-width: 300px;
+  }
+  
+}
